@@ -6,7 +6,7 @@ FrogSlayer is an event-driven productivity automation built with **n8n** that he
 
 ## 🎬 Demo
 
-![FrogSlayer demo](docs/demo.gif)
+[FrogSlayer demo](https://github.com/GreCodes/FrogSlayer/blob/main/docs/FrogSlayerDemo.gif?raw=true))
 
 
 ---
