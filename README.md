@@ -31,6 +31,7 @@ This project demonstrates workflow automation, API integration, and event-driven
 - Selects the first incomplete task  
 - Sends task details via Telegram
 
+![](docs/daily-notification.png)
 
 ### 2️⃣ Mark Task Completed
 
@@ -38,6 +39,8 @@ This project demonstrates workflow automation, API integration, and event-driven
 - Identifies the active task
 - Updates task status in Google Sheets
 - Sends confirmation message
+
+![](docs/task-completed.png)
 
 ---
 
