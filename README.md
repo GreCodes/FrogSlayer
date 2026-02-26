@@ -4,6 +4,13 @@ FrogSlayer is an event-driven productivity automation built with **n8n** that he
 
 ---
 
+## 🎬 Demo
+
+![FrogSlayer demo](docs/demo.gif)
+
+
+---
+
 ## 🧠 Overview
 
 FrogSlayer automates the “eat the frog” method by reducing decision fatigue and creating a simple feedback loop for task completion.
