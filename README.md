@@ -41,6 +41,19 @@ This project demonstrates workflow automation, API integration, and event-driven
 
 ---
 
+🖼 Workflow Walkthrough
+Daily Task Notification Workflow
+
+Runs automatically every day at 8:00 AM.
+It retrieves the highest-priority incomplete task from Google Sheets and sends it to Telegram, ensuring the user starts the day with a clear focus.
+
+Task Completion Workflow
+
+Triggered when the user sends /done in Telegram.
+The workflow validates the command, updates the task status in Google Sheets, and sends an affirming confirmation message, closing the feedback loop.
+
+---
+
 ## 🧩 Architecture
 
 Scheduler → Task Selection → Telegram Notification
