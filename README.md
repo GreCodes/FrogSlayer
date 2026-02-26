@@ -22,6 +22,10 @@ This project demonstrates workflow automation, API integration, and event-driven
 
 ---
 
+## 🧩 Case Study
+
+In a busy daily life, high-effort tasks are often postponed because deciding what to tackle first creates unnecessary friction. FrogSlayer addresses this by automating the “eat the frog” method: every day at 8:00 AM it delivers one priority task via Telegram and closes the loop with an affirming confirmation when the task is completed. The result is a simple clarity → action → reinforcement cycle that reduces cognitive load and supports consistent execution.
+
 ## ⚙️ How It Works
 
 ### 1️⃣ Daily Task Notification
