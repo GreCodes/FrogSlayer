@@ -13,10 +13,10 @@ FrogSlayer is an event-driven productivity automation built with **n8n** that he
 
 ## 🧠 Overview
 
-FrogSlayer automates the “eat the frog” method by reducing decision fatigue and creating a simple feedback loop for task completion.
+FrogSlayer automates the [“eat the frog”](https://www.tempo.io/blog/eat-the-frog) method by reducing decision fatigue and creating a simple feedback loop for task completion.
 
-Each day, the system selects the highest-priority unfinished task from a Google Sheet and sends it to Telegram.  
-When the task is completed, the user replies with `/done`, and the task status is automatically updated.
+Each day at 8:00 AM, the system automatically selects the highest-priority unfinished task from a Google Sheet and sends it to Telegram.
+When the task is completed, the user replies with /done, and the task status is updated in Google Sheets. An affirming confirmation message is then sent via Telegram.
 
 This project demonstrates workflow automation, API integration, and event-driven architecture.
 
@@ -25,10 +25,12 @@ This project demonstrates workflow automation, API integration, and event-driven
 ## ⚙️ How It Works
 
 ### 1️⃣ Daily Task Notification
-- Trigger: Scheduled (daily)
-- Fetches tasks from Google Sheets
-- Selects the first incomplete task
+
+- Trigger: Scheduled (every day at 8:00 AM)  
+- Fetches tasks from Google Sheets  
+- Selects the first incomplete task  
 - Sends task details via Telegram
+
 
 ### 2️⃣ Mark Task Completed
 
